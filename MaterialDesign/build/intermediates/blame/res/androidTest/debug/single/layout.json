@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\dialog.xml",
+        "source": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\color_selector.xml",
+        "source": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\color_selector.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\snackbar.xml",
+        "source": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\snackbar.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\number_indicator_spinner.xml",
+        "source": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\bundles\\debug\\res\\layout\\number_indicator_spinner.xml"
+    }
+]

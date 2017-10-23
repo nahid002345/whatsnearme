@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar android:id="@+id/toolbar_main"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/primaryColor"
+    app:contentInsetEnd="0dp"
+    app:contentInsetStart="0dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_border_bottom"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:clickable="true"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_list_row_compass"/>
+
+                <!--<TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:text="NearBy App"
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:textColor="@color/primaryTextColor"/>-->
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <com.diordna.whats.near.me.font.RobotoTextView
+                    android:id="@+id/txt_city_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:typeface="robotoLight"
+                    android:text="LONDON"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textColor="@color/cardview_light_background"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center_vertical"
+
+                android:orientation="vertical">
+                <com.diordna.whats.near.me.font.RobotoTextView
+                    android:id="@+id/txt_tool_weather"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:typeface="robotoLight"
+                    android:text="20°c"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:gravity="right"
+                    android:textColor="@color/cardview_light_background"/>
+                <com.diordna.whats.near.me.font.RobotoTextView
+                    android:id="@+id/txt_drd_school"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    app:typeface="robotoLight"
+                    android:text="Web 24 Feb,2017 "
+                    android:textSize="12sp"
+                    android:gravity="right"
+                    android:layout_gravity="bottom"
+                    android:textColor="@color/cardview_light_background"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>

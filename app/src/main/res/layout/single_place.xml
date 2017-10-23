@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar_main"
+        layout="@layout/toolbar">
+    </include>
+
+    <!-- Map Fragment -->
+        <fragment
+            android:name="com.google.android.gms.maps.MapFragment"
+            android:id="@+id/mapSingle"
+            android:layout_below="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/mapSingle"
+        android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dim_place_image_padding"
+                    android:src="@drawable/ic_user_location"/>
+
+                <com.diordna.whats.near.me.font.RobotoTextView
+                    android:id="@+id/name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="17sp"
+                    android:padding="@dimen/dim_place_image_padding"
+                    android:layout_gravity="center_vertical"
+                    android:maxLines="2"
+                    android:text="Memfys Hospital for neurosurgery eug kjakdjoa"
+                    app:typeface="robotoLight"
+                    android:textColor="@color/primaryTextColor"/>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dim_place_image_padding"
+                android:src="@drawable/ic_map_address"/>
+
+            <com.diordna.whats.near.me.font.RobotoTextView
+                android:id="@+id/address"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="17sp"
+                android:padding="@dimen/dim_place_image_padding"
+                app:typeface="robotoLight"
+                android:textColor="@color/primaryTextColor"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/pressed_state"
+            android:clickable="true"
+            android:onClick="onPhoneClick"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dim_place_image_padding"
+                android:src="@drawable/call"/>
+
+            <com.diordna.whats.near.me.font.RobotoTextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:textSize="17sp"
+                android:padding="@dimen/dim_place_image_padding"
+                app:typeface="robotoLight"
+                android:textColor="@color/primaryTextColor"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/pressed_state"
+                android:clickable="true"
+                android:onClick="onWebsiteClick"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dim_place_image_padding"
+                    android:src="@drawable/ic_list_row_www"/>
+
+                <com.diordna.whats.near.me.font.RobotoTextView
+                    android:id="@+id/txt_website"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="17sp"
+                    android:padding="@dimen/dim_place_image_padding"
+                    app:typeface="robotoLight"
+                    android:textColor="@color/primaryTextColor"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_hide_amin.xml",
+        "source": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\res\\anim\\dialog_root_hide_amin.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_show_animation.xml",
+        "source": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\res\\anim\\snackbar_show_animation.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_hide_amination.xml",
+        "source": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\res\\anim\\dialog_main_hide_amination.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\progress_indeterminate_animation.xml",
+        "source": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\res\\anim\\progress_indeterminate_animation.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\snackbar_hide_animation.xml",
+        "source": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\res\\anim\\snackbar_hide_animation.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_root_show_amin.xml",
+        "source": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\res\\anim\\dialog_root_show_amin.xml"
+    },
+    {
+        "merged": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\build\\intermediates\\res\\merged\\debug\\anim\\dialog_main_show_amination.xml",
+        "source": "E:\\Android Project\\WhatsNearbyMe\\MaterialDesign\\res\\anim\\dialog_main_show_amination.xml"
+    }
+]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.diordna.whats.near.me.header.HeaderView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.diordna.whats.near.me.font.RobotoTextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:typeface="robotoBold"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/header_view_start_text_size"
+        android:textStyle="bold" />
+
+    <com.diordna.whats.near.me.font.RobotoTextView
+        android:id="@+id/last_seen"
+        app:typeface="robotoLight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textColor="@android:color/white" />
+
+
+</com.diordna.whats.near.me.header.HeaderView>
